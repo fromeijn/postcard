@@ -7,15 +7,8 @@ readme = "README.md"
 repository = "https://github.com/jamesmunns/postcard"
 description = "A no_std + serde compatible message library for Rust"
 license = "MIT OR Apache-2.0"
-categories = [
-    "embedded",
-    "no-std",
-]
-keywords = [
-    "serde",
-    "cobs",
-    "framing",
-]
+categories = ["embedded", "no-std"]
+keywords = ["serde", "cobs", "framing"]
 documentation = "https://docs.rs/postcard/"
 
 [package.metadata.docs.rs]
@@ -25,7 +18,7 @@ rustdoc-args = ["--cfg", "docsrs"]
 [dependencies]
 
 [dependencies.heapless]
-version = "0.7.0"
+version = "0.8.0"
 default-features = false
 features = ["serde"]
 optional = true
